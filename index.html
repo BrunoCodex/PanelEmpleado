@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Panel Empleado</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="content">
+		<div class="menu">
+			<div class="avatar">
+				<div class="imagen">
+					<div class="div-img">
+						<img src="img/avatar.jpg" alt="">
+					</div>
+					<div class="status">
+						<!-- <div class="disconnected"></div> -->
+						<div class="connected"></div>
+					</div>
+				</div>
+				<div class="nombre">
+					<h3>Bruno Alexander</h3>
+				</div>
+			</div>
+			<div class="menu-lateral">
+				<ul>
+					<li>
+						<a href="#"><div># Inicio</div> <div class="notif">25</div></a>
+					</li>
+					<li><a href="#"># Dashboard</a></li>
+					<li><a href="#" class="selected"># Empleados</a></li>
+					<li><a href="#"><div># Configuración</div> <div class="notif">5</div></a></li>
+					<li><a href="#"># Cerrar sesión</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="cabecera">
+				<div class="buscador">
+					<p>$</p>
+					<input type="text" placeholder="Ingrese algo para buscar...">
+				</div>
+				<div class="boton">
+					<a href="#">Agregar Nuevo</a>
+				</div>
+			</div>
+			<div class="formulario">
+				<h2>Agregar nuevo empleado</h2>
+				<div class="wrapper-form">
+					<div class="two-column">
+						<div class="item-form">
+							<label for="txt_apellidos">Apellidos:</label>
+							<input type="text" id="txt_apellidos" name="txt_apellidos" placeholder="Ingrese sus apellidos">
+						</div>
+						<div class="item-form">
+							<label for="txt_nombres">Nombres:</label>
+							<input type="text" id="txt_nombres" name="txt_apellidos" placeholder="Ingrese sus nombres">
+						</div>
+					</div>
+					<div class="one-column">
+						<div class="item-form">
+							<label for="txt_posicion">Puesto de trabajo:</label>
+							<input type="text" id="txt_posicion" name="txt_posicion" placeholder="Ingrese su posición en la empresa">
+						</div>
+					</div>
+					<div class="two-column">
+						<div class="item-form">
+							<label for="txt_apellidos">Email::</label>
+							<input type="text" id="txt_apellidos" name="txt_apellidos" placeholder="Ingrese su correo electronico">
+						</div>
+						<div class="item-form">
+							<label for="txt_nombres">Nro. de Teléfono:</label>
+							<input type="text" id="txt_nombres" name="txt_apellidos" placeholder="Ingrese su número de teléfono">
+						</div>
+					</div>
+					<div class="two-column">
+						<div class="item-form">
+							<label for="txt_apellidos">Nro. de celular:</label>
+							<input type="text" id="txt_apellidos" name="txt_apellidos" placeholder="Ingrese su número de celular">
+						</div>
+						<div class="item-form">
+							<label for="txt_nombres">DNI:</label>
+							<input type="text" id="txt_nombres" name="txt_apellidos" placeholder="Ingrese su número de dni">
+						</div>
+					</div>
+					<div class="botonera">
+						<div class="boton">
+							<a href="#" class="btn btn-medium">Guardar</a>
+						</div>
+						<div class="boton">
+							<a href="#" class="btn btn-medium">Guardar y gregar otro</a>
+						</div>
+						<div class="boton">
+							<a href="#" class="btn btn-cancel btn-medium">Cancelar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
